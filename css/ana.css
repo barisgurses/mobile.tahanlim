@@ -4,12 +4,11 @@ body{
 
 .üst {
     background-color: white;
-    height: 100px;
+    min-height: 50px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    border-top: 5px solid #c68338;
 }
 .navbar {
     height: 40px;
@@ -37,8 +36,11 @@ a:hover { color: inherit !important; text-decoration: none !important;}
 a:active { color: inherit; }
 
 a.nav-link{
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
 }
 
 a.nav-link:hover {
@@ -50,24 +52,8 @@ h4 {
     width: 125px;
 }
 h2 {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 25px;
-}
-h2:after, h2:before{
-    content: "";
-    flex: 1 1;
-    border-bottom: 3px solid black;
-    margin: auto;
-    padding: 0 !important;
-}
-h2:after {
-    margin-left: 20px;
-    margin-right: 25px;
-}
-h2:before {
-    margin-right: 20px;
-    margin-left: 25px;
+    font-size: 10pt !important;
+    padding-top: 17.5px;
 }
 .carousel-indicators li {
     width: 10px !important;
@@ -82,7 +68,6 @@ h2:before {
 .mw{
     max-width: 600px !important;
     min-width: 300px !important;
-    transition: 1s linear;
 }
 .haber{
     left: 0;
@@ -152,4 +137,9 @@ border-radius: 2px; }
     background-color: #c68338 !important;
     border: none !important;
     color: white !important;
+}
+.logo{
+    height: 30px;
+    float: right;
+    margin-top: 10px;
 }
