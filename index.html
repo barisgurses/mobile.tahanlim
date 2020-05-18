@@ -131,9 +131,7 @@
             var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\s ce|palm/i.test(navigator.userAgent.toLowerCase()))
             var parts = location.hostname.split('.');
             var subdomain = parts.shift();
-            if(mobile){
-                document.location="https://barisgurses.github.io/mobile.tahanlim/index.html";
-            } else{
+            if(!mobile){
                 document.location="https://barisgurses.github.io/tahanlim/index.html";
             }
         </script>
