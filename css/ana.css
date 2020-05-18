@@ -26,14 +26,18 @@ a:active { color: inherit; }
 a.nav-link{
     font-size: 10pt;
     font-weight: 500;
-    padding-top: 5px;
+    padding-top: 5;
     padding-bottom: 5px;
-    padding-left: 15px;
+}
+#collapseExample
+{
+    width: 100% !important;
+    text-align: center !important;
 }
 
-.col-6 h4 {
-    font-size: 12pt !important;
-    width: 125px;
+.col-7 h4 {
+    font-size: 5.6vw !important;
+    margin-left: 10px;
 }
 .col-12 h4{
     font-size: 10pt
@@ -53,8 +57,8 @@ h2 {
     display: none !important;
 }
 .mw, footer{
-    max-width: 600px !important;
     min-width: 300px !important;
+    max-width: 600px !important;
 }
 footer{
     margin-left: auto;
@@ -65,7 +69,7 @@ footer{
     left: 0;
     right: 0;
     margin: auto;
-    height: 370px;
+    height: auto;
     background-color: white;
 }
 .haberler{
@@ -99,24 +103,25 @@ max-width: 100%; } }
 border-radius: 2px; }
 
 .carousel-caption{
-    top: 80px;
     width: 100%;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    bottom: initial !important;
     left: 0 !important;
 }
 .carousel-caption h1{
     color: #fae85a;
-    font-size: 10pt !important;
     font-weight: 700 !important;
     text-shadow: rgb(69, 34, 21) 2px 0px 0px, rgb(69, 34, 21) 1.75517px 0.958851px 0px, rgb(69, 34, 21) 1.0806px 1.68294px 0px, rgb(69, 34, 21) 0.141474px 1.99499px 0px, rgb(69, 34, 21) -0.832294px 1.81859px 0px, rgb(69, 34, 21) -1.60229px 1.19694px 0px, rgb(69, 34, 21) -1.97998px 0.28224px 0px, rgb(69, 34, 21) -1.87291px -0.701566px 0px, rgb(69, 34, 21) -1.30729px -1.5136px 0px, rgb(69, 34, 21) -0.421592px -1.95506px 0px, rgb(69, 34, 21) 0.567324px -1.91785px 0px, rgb(69, 34, 21) 1.41734px -1.41108px 0px, rgb(69, 34, 21) 1.92034px -0.558831px 0px;
 }
 .carousel-item h1{
     opacity: 0;
-    font-size: 10pt !important;
-    padding-top: 150px !important;
+    font-size: 5vw !important;
+    padding-top: 175px !important;
 }
 .carousel-item.active h1{
     opacity: 1;
-    font-size: 16pt !important;
+    font-size: 7vw !important;
     padding-top: 0 !important;
     transition: .5s ease-out;
     -moz-transition: .5s ease-out;
@@ -149,4 +154,15 @@ border-radius: 2px; }
     left: 0;
     width: 100%;
     height: 100%;  
+}
+@media screen and (min-width: 601px) {
+    .col-7 h4 {
+        font-size: 26pt !important;
+    }
+    .carousel-item.active h1{
+        font-size: 32pt !important;
+    }
+    .carousel-item h1 {
+        font-size: 24pt !important;
+    }
 }
