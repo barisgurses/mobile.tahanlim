@@ -54,11 +54,9 @@ h2 {
 }
 .mw, footer{
     min-width: 300px !important;
-    max-width: 600px !important;
+    max-width: 100% !important;
 }
 footer{
-    margin-left: auto;
-    margin-right: auto;
     margin-top: auto;
 }
 .haber{
@@ -85,7 +83,7 @@ footer{
 }
 .container{
     min-width: 300px !important;
-    max-width: 600px !important;
+    max-width: 100% !important;
 }
 .carousel-multi-item-2 .col-md-3 {
 float: left;
@@ -124,8 +122,7 @@ border-radius: 2px; }
 .urun{
     border: 2px solid darkgray;
     border-radius: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
+    height: auto;
 }
 .btn, .btn:hover, btn:focus, btn:active{
     background-color: #c68338 !important;
@@ -157,5 +154,14 @@ border-radius: 2px; }
     }
     .carousel-item h1 {
         font-size: 24pt !important;
+    }
+    .ur4{
+        font-size: 18pt !important;
+    }
+    .ur3{
+        font-size: 14pt !important;
+    }
+    .urb{
+        width: 180px !important;
     }
 }
