@@ -1,5 +1,5 @@
 body{
-    background-color: #fae85a !important;
+    background-color: white !important;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,10 +8,6 @@ body{
 .üst {
     background-color: white;
     min-height: 50px;
-}
-.navbar {
-    height: 40px;
-    background-color: #c68338;
 }
 
 img{
@@ -76,14 +72,11 @@ footer{
     height: auto;
     background-color: white;
     padding: 10px !important;
-    border-top: 1px solid darkgray;
-    
 }
 .haberler .row{
     margin-bottom: 10px;
 }
 .haberler h3{
-    text-align: center;
     font-size: 12pt;
 }
 .haberler p{
