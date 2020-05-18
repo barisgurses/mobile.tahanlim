@@ -127,5 +127,15 @@
         
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script type="text/javascript">
+            var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\s ce|palm/i.test(navigator.userAgent.toLowerCase()))
+            var parts = location.hostname.split('.');
+            var subdomain = parts.shift();
+            if(mobile){
+                document.location="https://barisgurses.github.io/mobile.tahanlim/";
+            } else{
+                document.location="https://barisgurses.github.io/tahanlim/";
+            }
+        </script>
     </body>
 </html>
