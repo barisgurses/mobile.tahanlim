@@ -5,10 +5,6 @@ body{
 .üst {
     background-color: white;
     min-height: 50px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 .navbar {
     height: 40px;
@@ -17,17 +13,6 @@ body{
 
 img{
     object-fit: cover;
-}
-.reh img {
-    opacity: 1;
-	-webkit-transition: .15s ease-in-out;
-	transition: .15s ease-in-out;
-}
-.reh:hover img {
-    opacity: .75;
-}
-.reh:hover h3, .reh:hover h4 {
-    color: #c68338;
 }
 
 a:link { color: inherit; }
@@ -40,16 +25,16 @@ a.nav-link{
     font-weight: 500;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 0;
+    padding-left: 15px;
+    width: 200px !important;
 }
 
-a.nav-link:hover {
-    color: #c68338 !important;
-}
-
-h4 {
+.col-6 h4 {
     font-size: 12pt !important;
     width: 125px;
+}
+.col-12 h4{
+    font-size: 10pt
 }
 h2 {
     font-size: 10pt !important;
@@ -65,9 +50,12 @@ h2 {
     margin: 0 !important;
     display: none !important;
 }
-.mw{
+.mw, footer{
     max-width: 600px !important;
     min-width: 300px !important;
+}
+footer{
+    margin: auto;
 }
 .haber{
     left: 0;
@@ -79,18 +67,20 @@ h2 {
 .haberler{
     height: auto;
     background-color: white;
-    border-radius: 25px;
-    margin-top: 25px;
-    margin-bottom: 108px;
-    background-color: white;
-    padding: 25px !important;
+    padding: 10px !important;
+    border-top: 1px solid darkgray;
     
 }
 .haberler .row{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+.haberler h3{
+    text-align: center;
+    font-size: 12pt;
 }
 .haberler p{
     text-align: justify;
+    font-size: 10pt;
 }
 .container{
     min-width: 300px !important;
@@ -132,6 +122,8 @@ border-radius: 2px; }
 .urun{
     border: 2px solid darkgray;
     border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .btn, .btn:hover, btn:focus, btn:active{
     background-color: #c68338 !important;
