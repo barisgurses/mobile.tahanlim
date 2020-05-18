@@ -10,6 +10,7 @@
         <link rel="icon" href="/fav.png" type="image/x-icon">
         <meta name="theme-color" content="#c68338">
         <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
     </head>
     <body>
         <div class="container üst">
@@ -53,7 +54,13 @@
                 <div class="row align-items-center text-center" style="height: 100%;">
                     <div class="col">
                         <h1 style="color: white; font-size: 18pt"> <span style="color: #fae85a;">TAHANLIM</span>.com </h1>
-                        <p style="font-size: 8pt"> Bu site Uludağ Üniversitesi'nin Grafik Tasarım Bölümü'nün Bitirme Projesi dersi için açılmıştır. Sitede bulunan bilgiler hiç bir gerçekliği yansıtmamaktadır. Tahanlım markası ders için oluşturulmuştur ve bir hayal ürünüdür. Tüm haklarımız saklıdır. </p>
+                        <p style="font-size: 8pt" class="pb-0 mb-0"> Bu site Uludağ Üniversitesi'nin Grafik Tasarım Bölümü'nün Bitirme Projesi dersi için açılmıştır. Sitede bulunan bilgiler hiç bir gerçekliği yansıtmamaktadır. Tahanlım markası ders için oluşturulmuştur ve bir hayal ürünüdür. Tüm haklarımız saklıdır. </p>
+                        <p style="font-size: 10pt" class="p-0 m-0">
+                            <a href="https://www.facebook.com/people/Tahanl%C4%B1m-Resmi/100049449293378" target="_blank"> <i class="fab fa-facebook"></i> </a>
+                            <a href="https://www.instagram.com/tahanlimofficial" target="_blank"> <i class="fab fa-instagram"></i> </a>
+                            <a href="https://twitter.com/Tahanlimoffical" target="_blank"> <i class="fab fa-twitter"></i> </a>
+                            <a href="https://www.youtube.com/channel/UCvANIDteMqZxN4ezo6WQJNw" target="_blank"> <i class="fab fa-youtube"></i> </a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -77,5 +84,13 @@
         
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script type="text/javascript">
+            var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\s ce|palm/i.test(navigator.userAgent.toLowerCase()))
+            var parts = location.hostname.split('.');
+            var subdomain = parts.shift();
+            if(!mobile){
+                document.location="https://barisgurses.github.io/tahanlim/4.html";
+            }
+        </script>
     </body>
 </html>

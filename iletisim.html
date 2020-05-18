@@ -10,6 +10,7 @@
         <link rel="icon" href="/fav.png" type="image/x-icon">
         <meta name="theme-color" content="#c68338">
         <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
     </head>
     <body>
         <div class="container üst">
@@ -34,7 +35,6 @@
         <div class="container haberler align-center align-items-center">
             <div class="row justify-content-center m-0">
                 <div class="col-12">
-                    <h3 class="text-center"> İletişim Bilgilerimiz </h3>
                     <h4> Adres </h4>
                     <p> Odunluk Mahallesi, Erdoğan Binyücel Caddesi 11/A 16110 Nilüfer / Bursa </p>
                     <h4> Telefon </h4>
@@ -43,7 +43,6 @@
                     <p> iletisim@tahanlim.com </p>
                 </div>
                 <div class="col-12">
-                    <h3 class="text-center"> Konumumuz </h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.2365488077603!2d28.991712115701635!3d40.20380077648513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca1681837dd10d%3A0xb66337f3670e7b12!2zT2R1bmx1aywgRXJkb8SfYW4gQmluecO8Y2VsIENkLiBObzoxMSBEOkEsIDE2MTEwIE5pbMO8ZmVyL0J1cnNh!5e0!3m2!1str!2str!4v1589110614059!5m2!1str!2str" width="100%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -55,7 +54,13 @@
                 <div class="row align-items-center text-center" style="height: 100%;">
                     <div class="col">
                         <h1 style="color: white; font-size: 18pt"> <span style="color: #fae85a;">TAHANLIM</span>.com </h1>
-                        <p style="font-size: 8pt"> Bu site Uludağ Üniversitesi'nin Grafik Tasarım Bölümü'nün Bitirme Projesi dersi için açılmıştır. Sitede bulunan bilgiler hiç bir gerçekliği yansıtmamaktadır. Tahanlım markası ders için oluşturulmuştur ve bir hayal ürünüdür. Tüm haklarımız saklıdır. </p>
+                        <p style="font-size: 8pt" class="pb-0 mb-0"> Bu site Uludağ Üniversitesi'nin Grafik Tasarım Bölümü'nün Bitirme Projesi dersi için açılmıştır. Sitede bulunan bilgiler hiç bir gerçekliği yansıtmamaktadır. Tahanlım markası ders için oluşturulmuştur ve bir hayal ürünüdür. Tüm haklarımız saklıdır. </p>
+                        <p style="font-size: 10pt" class="p-0 m-0">
+                            <a href="https://www.facebook.com/people/Tahanl%C4%B1m-Resmi/100049449293378" target="_blank"> <i class="fab fa-facebook"></i> </a>
+                            <a href="https://www.instagram.com/tahanlimofficial" target="_blank"> <i class="fab fa-instagram"></i> </a>
+                            <a href="https://twitter.com/Tahanlimoffical" target="_blank"> <i class="fab fa-twitter"></i> </a>
+                            <a href="https://www.youtube.com/channel/UCvANIDteMqZxN4ezo6WQJNw" target="_blank"> <i class="fab fa-youtube"></i> </a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -79,5 +84,13 @@
         
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script type="text/javascript">
+            var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\s ce|palm/i.test(navigator.userAgent.toLowerCase()))
+            var parts = location.hostname.split('.');
+            var subdomain = parts.shift();
+            if(!mobile){
+                document.location="https://barisgurses.github.io/tahanlim/iletisim.html";
+            }
+        </script>
     </body>
 </html>
